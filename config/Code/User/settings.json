@@ -1,0 +1,26 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "window.zoomLevel": 1,
+    "editor.rulers": [
+        100
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    },
+    "autoDocstring.docstringFormat": "numpy",
+    "autoDocstring.guessTypes": true,
+    "autoDocstring.includeDescription": false,
+    "gitlens.currentLine.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "python.formatting.provider": "black",
+    "explorer.confirmDragAndDrop": false
+}
