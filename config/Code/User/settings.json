@@ -4,7 +4,8 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": true,
-    "terminal.integrated.fontFamily": "monospace, PowerlineSymbols",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "terminal.integrated.fontFamily": "DroidSansMono Nerd Font",
     "window.zoomLevel": 1,
     "editor.rulers": [
         100
