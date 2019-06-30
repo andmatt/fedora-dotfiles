@@ -141,6 +141,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 bindsym Control+Print exec gnome-screenshot -i
 
+# force quit
+bindsym $mod+Shift+w exec xkill
+
+
 # lockscreen
 bindsym Mod1+l exec i3lock
 
@@ -152,6 +156,10 @@ exec_always --no-startup-id bash ~/.config/polybar/launch.sh
 
 # transparent terminal
 exec --no-startup-id compton
+
+# hide title bar
+for_window [class="^.*"] border pixel 1
+new_window 1pixel
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
